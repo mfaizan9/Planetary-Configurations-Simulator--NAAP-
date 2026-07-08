@@ -1,0 +1,37 @@
+{
+  "_comment": "Please place new simulation entries (like the newSim example) in alphabetical order. NOTE: This is the per-sim copy for the Planetary Configurations Simulator. The original shared foundation/contents.json shipped with several malformed entries (raw newlines and unescaped double quotes inside other sims' strings) that make the whole file fail JSON.parse and break the masthead. Because the masthead only reads this sim's key, this copy contains this sim's entry (content unchanged from the source's own configurationssimulator entry) plus the newSim template. See CONVERSION_NOTES.md.",
+
+  "newSim": {
+    "meta": {
+      "title": "Simulation Title",
+      "version": "2.0"
+    },
+    "masthead": {
+      "help": {
+        "title": "Help and Instructions",
+        "content": "<p>Leave this string completely blank for no Help button.</p>"
+      },
+      "about": {
+        "title": "About this Demonstrator",
+        "content": "<p>For additional astronomy education materials please visit <a href=\"https://astro.unl.edu/\">Astronomy Education</a> at the University of Nebraska-Lincoln.</p><p>This demonstrator has been modernized by the AAS Applet Task Force to meet modern web accessibility standards (WCAG 2.1 AA).</p><p>Initial funding for this work was provided by NSF grants #0231270 and/or #0404988.</p><p>Permission is granted to use these files for noncommercial purposes as long as they remain unmodified.</p>"
+      }
+    }
+  },
+
+  "configurationssimulator": {
+    "meta": {
+      "title": "Planetary Configurations Simulator",
+      "version": "2.0"
+    },
+    "masthead": {
+      "help": {
+        "title": "Help and Instructions",
+        "content": "<p>This simulator models the movement of planets around the sun in a simplified Copernican model of the solar system. Special emphasis is placed on the elongation angle and associated events.</p><p>Use the controls in the <em>Orbit Sizes</em> panel to set the orbit radii for the observer's planet and the target planet.</p><p>The planets in the <em>Diagram</em> panel are draggable. Hold the shift key down to move just one planet at a time. Otherwise, both planets move and the time changes.</p><p>The <em>Zodiac Strip</em> panel shows the positions of the sun and the target planet in the sky against the background of stars. You can drag the strip left or right for clarity.</p><p>The <em>Animation Controls</em> let you watch the system in motion. By default the animation continues to run when an event occurs, but you can have it automatically stop or pause as well.</p><p>The <em>Timeline</em> shows how the events are spaced out in time, with past events at the top and future events at the bottom. The current point in time is indicated by the red cursor. The times are given relative to an arbitrary zero point which you can set by clicking the <em>zero counter</em> button. Note that if an event name is highlighted in red it means the simulation is set exactly on that event. You can drag the timeline up and down, or click on an event name to advance the simulator to that event.</p>"
+      },
+      "about": {
+        "title": "About this Simulator",
+        "content": "<p>This simulator is part of the Solar System Models Module of the <a href=\"https://astro.unl.edu/naap/\">Nebraska Astronomy Applet Project. Supporting materials and additional astronomy education resources can be found there.</p><p>This simulator has been modernized by the AAS Applet Task Force to meet modern web accessibility standards (WCAG 2.1 AA).</p><p>Initial funding for this work was provided by NSF grants #0231270 and/or #0404988.</p><p>Permission is granted to use these files for noncommercial purposes as long as they remain unmodified.</p>"
+      }
+    }
+  }
+}
